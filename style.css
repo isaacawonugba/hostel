@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald|Rationale|Ubuntu');
+h1, h2, h3, h4, h5, h6 {font-family:'Rationale', sans-serif; }
+header{display:block; background:#9E4A71; padding:0px;height:124px;}
+header div img{z-index:3; position:absolute; top:13px; margin-left:240px;}
+header div div{z-index:2; top:35px; position: absolute; width:100%; padding:0px; margin:0px;}
+header div div h1{z-index:4; text-align: center; padding:0px; margin:0px;}
+header div div h3{margin:0px; text-align: center;padding:0px; margin:0px;}
+
+.slide{padding:0px 50px; background: url("images/slides/18.jpg") no-repeat center;}
+.slide div{padding:20px 0px 20px 0px;}
+
+.portals{background:#F2F2F2; padding:40px 20px;}
+
+.portals .w3-cell-row .w3-cell{width:19%; margin-right:1%; padding:15px;}
+.portals .w3-cell-row .w3-cell a{width:100%; margin:0px; text-decoration: none;}
+.portals .w3-cell-row .w3-cell .w3-card-2{background:#fff; margin:0px; padding:10px 15px;}
+.portals .w3-cell-row .w3-cell .w3-card-2 h5{padding:0px; margin:0px;}
+.portals .w3-cell-row .w3-cell .w3-card-2 .fa {color:#9E4A71;}
+
+footer{width:100%;  background:#333333; margin-top: 4px solid #9c0;}
+footer section.w3-container{border-top: 1px solid #5e676b; }
+
+footer section .w3-row{padding:20px 80px;}
+input.error, textarea.error { border-color:#ff0000 !important; }

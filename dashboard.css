@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+.w3-sidebar{background:#9E4A71; padding:80px 30px; width:15%;}
+.w3-sidebar a{text-decoration:none; margin-bottom:15px;}
+.container{width:85%; padding-bottom:60px;}
+.container .w3-bar{padding-left:45px; padding-right:30px;}
+.container .w3-bar .w3-quarter a{text-decoration:none; display:inline;  padding:10px; width:50px; }
+.container .w3-bar .w3-quarter .w3-dropdown-hover{width:70px; display:inline;}
+.container .w3-bar .w3-quarter .w3-dropdown-hover .w3-dropdown-content{right:10px; max-width:150px; width:150px; min-width:150px; padding:10px;}
+.container .w3-bar .w3-quarter .w3-dropdown-hover .w3-dropdown-content a{width:100%; display:block;}
+.container .w3-bar .toggler{border:none; padding:0px;}
+
+.w3-status-card a .w3-half{width:48%; margin-right:1%;}
+.w3-status-card a .w3-quarter{width:24%; margin-right:1%;}
+.w3-status-card{padding-left:5%; margin:25px 0px;}
+.w3-status-card h3{color:#1D3557;}
+.w3-status-card a .w3-card-2 h1{font-weight:bold; font-size:64px;  color:#0C264A;}
+.w3-status-card a .w3-card-2 h3{text-transform:uppercase; color:#0C264A;}
+.w3-status-card .w3-card-2 .w3-half{padding:10px 20px 10px 20px;}
+.w3-status-card .w3-card-2 .w3-half p{color:rgb(12, 38, 74);}
+.w3-status-card .w3-card-2 .w3-half h3{font-size:20px;}
+.w3-status-card .w3-card-2 .w3-half a{width:220px; background:#0C264A; padding:15px 85px; color:#ffffff; text-decoration:none; border-radius:40px; font-size:12px; font-weight:bold;}
+.w3-status-card .w3-card-2 .w3-quarter{overflow:hidden;}
+.w3-status-card .w3-card-2 .w3-quarter h1{font-size:64px; color:#1D3557;}
+
+.w3-enrollments{padding-left:5%; margin:30px 0px;}
+.w3-enrollments h3{font-size:20px;}
+.w3-enrollments .w3-card-2{margin-right:2.5%; margin-bottom:20px;}
+.w3-enrollments .w3-card-2 div a{width:50px; background:#0C264A; padding:8px 15px; color:#ffffff; text-decoration:none; border-radius:40px; font-size:12px;}
+.w3-enrollments .w3-card-2 div form div div label{color:#9E4A71; font-size:16px;}
+
+@media only screen and (min-width: 482px) and (max-width: 769px){
+	.w3-sidebar{background:#9E4A71; padding:80px 2px; width:15%; overflow:hidden; font-size:10px;}
+	.container{width:85%; padding-bottom:60px;}
+	.container .w3-bar{padding-left:25px; padding-right:0px;}
+	.container .w3-bar a{text-decoration:none; color:#457B9D; padding:5px 0px 5px 0px ;}
+	.container .w3-bar a img{max-width:25px; margin:0px; padding:0px;}
+	.container .w3-bar .toggler{border:none; background:#fff;}
+	.container .w3-bar input{padding:12px 4px 12px 28px; border-radius:15px; background:url(../images/search.png) no-repeat #F1FAEE; border:thin #999; font-size:12px; width:180px; margin:10px;}	
+	.w3-status-card a .w3-card-2 h3{text-transform:uppercase; color:#0C264A; font-size:12px; font-weight:bold;}
+    .w3-status-card .w3-card-2 .w3-half{padding:0px 10px 10px 10px;}
+	.w3-status-card .w3-card-2 .w3-half p{color:rgb(12, 38, 74); font-size:12px;}
+
+	.w3-status-card .w3-card-2 .w3-half a{width:200px; background:#0C264A; padding:10px 65px; color:#ffffff; text-decoration:none; border-radius:20px; font-size:12px;}
+	.w3-status-card .w3-card-2 .w3-quarter{overflow:hidden;}
+	.w3-status-card .w3-card-2 .w3-quarter h1{font-size:45px; color:#1D3557;}
+	
+	.w3-enrollments .w3-card-2 h3{padding-left:10px; }
+	.w3-enrollments .w3-card-2 p{padding:0px 20px; color:#0C264A; font-size:12px;}
+}
+
+@media only screen and (max-width: 481px)
+{
+	.w3-sidebar{background:#9E4A71; padding:20px 0px; overflow:hidden; font-size:9px; max-width:30%; }
+	.container .w3-bar .toggler{display:none;}
+	.container{ max-width:70%; }
+	.container .w3-bar{padding:4px;}
+	.container .w3-bar input{padding:12px 4px 12px 28px; border-radius:15px; background:url(../images/search.png) no-repeat #F1FAEE; border:thin #999; font-size:12px; width:180px; margin:10px;}
+	.w3-status-card a .w3-third{width:30%; margin-right:2.5%; margin-bottom:20px;}
+	.w3-status-card{padding-left:5%; margin:50px 0px;}
+	.w3-status-card a .w3-card-2 h1{font-weight:bold; font-size:48px;  color:#0C264A;}
+	.w3-status-card a .w3-card-2 h3{text-transform:uppercase; color:#0C264A; font-size:16px;}
+	.form-container{width:98%; padding:1%; }
+	.form-container form div div label{font-size:12px; margin-bottom:10px; display:block;}
+	.form-container form div div label input,.form-container form div div label select {background:#F1FAEE; border-radius:12px; padding:10px 10px 10px 10px; border:none;}
+	
+	.form-container form .w3-row .w3-half .edit{background:#0C264A; padding:10px 25px; color:#ffffff; text-decoration:none; border-radius:40px; font-size:12px; border:none;}
+}
