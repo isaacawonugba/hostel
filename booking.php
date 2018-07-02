@@ -6,8 +6,8 @@
     <h3>Booking</h3>
     <div class="w3-row-padding">
         <div class="w3-third"><label class="w3-label">Hostel</label> <select id="hostel" class="w3-input w3-border" name="hostel"><?php echo $host->loadHostels(); ?></select></div>
-        <div class="w3-third"><label class="w3-label">Block</label> <select id="block" class="w3-input w3-border" name="block"></select></div>
-        <div class="w3-third"><label class="w3-label">Room</label> <select id="room" class="w3-input w3-border" name="room"></select></div>
+        <div class="w3-quarter"><label class="w3-label">Block</label> <select id="block" class="w3-input w3-border" name="block"></select></div>
+        <div class="w3-quarter"><label class="w3-label">Room</label> <select id="room" class="w3-input w3-border" name="room"></select></div>
     </div>
 
 </form>
