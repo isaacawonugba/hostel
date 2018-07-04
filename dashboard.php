@@ -21,8 +21,8 @@
                     <p class="w3-center">Dashboard</p>
                 </a>
                 <a href="#" onclick="$('#main').load('booking.php');"  class="w3-bar-item w3-mobile w3-text-white w3-center">
-                	<b class="fa fa-3x fa-user"></b> 
-                    <p class="w3-center">My Booking</p>
+                	<b class="fa fa-3x fa-pencil"></b> 
+                    <p class="w3-center">Apply now</p>
                 </a>
                 <a href="" class="w3-bar-item w3-mobile w3-text-white w3-center">
                 	<b class="fa fa-3x fa-money"></b> 
